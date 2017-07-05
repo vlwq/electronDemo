@@ -1,0 +1,17 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "a music player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager ./ andrewplayer --win32 --out ./../outplayer --electronVersion 1.4.13 --overwrite"
+  },
+  "author": "Andrew li",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
